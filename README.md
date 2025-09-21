@@ -1,4 +1,4 @@
-# Web Development Assignments
+# Web Development Assignment
 
 ## Question 1
 Build a webpage using to showcase different styling techniques.
