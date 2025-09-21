@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #fff3e0, #ffe0b2);
+    font-size: 18px;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 { font-size: 32px; }
+h2 { text-align: center; color: #6a1b9a; margin-top: 30px; font-size: 26px; }
+
+/* Clock Styling */
+.clock-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#clock {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4caf50;
+    background-color: #e1f5fe;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+#clock:hover {
+    transform: scale(1.1);
+}
+
+/* Table Styling */
+.table-section {
+    margin: 0 auto 50px auto;
+    max-width: 900px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+}
+
+th {
+    background-color: #ff6f61;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ffe0b2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 18px;
+}
